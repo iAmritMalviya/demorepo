@@ -1,0 +1,11 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: newyaml
+  annotations:
+    kubernetes.io/ingress.class: kong
+  tps: '45'
+  usecase: no case
+username: newyaml
+credentials:
+  - companyone-key-auth
