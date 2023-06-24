@@ -1,0 +1,11 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: example122
+  annotations:
+    kubernetes.io/ingress.class: kong
+  tps: '23'
+  usecase: asdf
+username: example122
+credentials:
+  - companyone-key-auth
