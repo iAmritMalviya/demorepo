@@ -1,0 +1,11 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: test4
+  annotations:
+    kubernetes.io/ingress.class: kong
+  tps: 214
+  usecase: testing
+username: test4
+credentials:
+  - companyone-key-auth
